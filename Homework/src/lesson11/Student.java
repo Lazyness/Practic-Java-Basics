@@ -18,8 +18,9 @@ public class Student {
     }
 
     public Student(String name, int course, String maleOrFemale){
-        this.name = name;
+        this.name = new String(name);
         this.course = course;
         this.maleOrFemale = maleOrFemale;
     }
+
 }
